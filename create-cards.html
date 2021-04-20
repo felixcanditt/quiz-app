@@ -8,19 +8,59 @@
   </head>
   <body>
     <header>
-      <h1>Neue Karte erstellen</h1>
+      <h1>Neue Quizfrage erstellen</h1>
     </header>
     <main>
-      <p>create</p>
+      <section>
+        <label for="question">Welche Frage willst du hinzufügen?</label>
+        <textarea id="question" name="question" rows="" cols=""> </textarea>
+      </section>
+
+      <section>
+        <label for="answer">Hier kommt die richtige Antwort rein:</label>
+        <textarea id="asnwer" name="asnwer" rows="" cols=""> </textarea>
+      </section>
+
+      <section>
+        <label for="tags"
+          >Hier kannst du passende Stichwörter eingeben (mit Komma
+          getrennt):</label
+        >
+        <input type="text" id="tags" name="tags" size="" />
+      </section>
+
+      <section>
+        <button>Karte erstellen</button>
+      </section>
     </main>
     <footer>
       <nav>
-        <ul>
-          <li><a href="./index.html">Index.html</a></li>
-          <li><a href="./bookmarked-cards.html">bookmarks.html</a></li>
-          <li><a href="./create-cards.html">create-cards.html</a></li>
-          <li><a href="./user-profile.html">user-profile.html</a></li>
-        </ul>
+        <span>
+          <a href="./index.html"
+            ><img src="./icons/popcorn.png" alt="popcorn" width="50px"
+          /></a>
+        </span>
+        <span>
+          <a href="./bookmarked-cards.html"
+            ><img src="./icons/oscar.png" alt="oscar" width="50px"
+          /></a>
+        </span>
+        <span>
+          <a href="./create-cards.html"
+            ><img
+              src="./icons/clapperboard.png"
+              alt="clapperboard"
+              width="50px"
+          /></a>
+        </span>
+        <span>
+          <a href="./user-profile.html"
+            ><img
+              src="./icons/director-chair.png"
+              alt="director chair"
+              width="50px"
+          /></a>
+        </span>
       </nav>
     </footer>
   </body>
