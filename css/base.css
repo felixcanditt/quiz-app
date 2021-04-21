@@ -1,3 +1,36 @@
 /* 
 generelle Styles 
 */
+
+/* 
+START Miriams Vorschlag für Default Einstellungen, abgewandelt von mir
+Miriams Vorschlag: https://codepen.io/miriamhaenle/pen/wvzLOGR?editors=0100
+/*
+
+/* :root {Farben zb} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-size: 1.25 rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+/* 
+END Miriams Vorschlag für Default Einstellungen
+/*

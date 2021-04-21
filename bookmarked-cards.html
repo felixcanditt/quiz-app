@@ -5,14 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bookmarked cards</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <h1>Mein Merkzettel</h1>
     </header>
     <main>
+      <article class="card">
+        <h2 class="card__title">Frage:</h2>
+        <span class="card__bookmark card__bookmark--active">
+          <a href="./bookmarked-cards.html"
+            ><img src="./icons/oscar.png" alt="oscar" width="50px"
+          /></a>
+        </span>
+        <p class="card__question">Wo wird die Goldene Palme verliehen?</p>
+        <details class="card__answer">
+          <summary>Antwort anzeigen</summary>
+          Auf dem Filmfestival in Cannes.
+        </details>
+        <ul class="card__tags">
+          <li>filmpreis</li>
+          <li>preisverleihung</li>
+          <li>preisträger</li>
+        </ul>
+      </article>
+
       <article>
-        <h3>Frage:</h3>
+        <h2>Frage:</h2>
         <span>
           <a href="./bookmarked-cards.html"
             ><img src="./icons/oscar.png" alt="oscar" width="50px"
@@ -40,7 +60,7 @@
             ><img src="./icons/popcorn.png" alt="popcorn" width="50px"
           /></a>
         </span>
-        <span>
+        <span class="navigation__icon--active">
           <a href="./bookmarked-cards.html"
             ><img src="./icons/oscar.png" alt="oscar" width="50px"
           /></a>
