@@ -51,30 +51,41 @@ header {
 }
 
 main {
-  padding-top: 120px;
-  padding-bottom: 140px;
+  padding-top: 160px;
+  padding-bottom: 300px;
 
-  display: grid;
+  /*display: grid;
+  justify-content: center;*/
+
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 
-  /*display: flex;
-  flex-wrap: wrap;
-  xjustify-content: center;
-  xalign-items: center;
+  align-items: center;
+  height: 100%;
 
-  xheight: 100vw;*/
+  gap: 20px;
 
   background-color: #f5eed7;
 }
 
-.main__create-cards {
-  padding-bottom: 300px;
+.main__create-cards,
+.main__user-profile {
+  flex-direction: column;
+  xjustify-content: center;
+  xalign-items: center;
+  xheight: 100%;
 }
 
+.main__create-cards {
+  xpadding-top: 1000px;
+}
+/*
 .main__user-profile {
   padding-left: 20px;
   padding-right: 20px;
 }
+*/
 
 .card {
   margin: 20px;
@@ -106,32 +117,44 @@ main {
 .tags-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-top: 10px;
+  justify-content: center;
+  padding: 20px 20px 0 20px;
+  gap: 20px;
 }
 
 .tags {
   background-color: #40997a;
-  margin: 5px;
+  xmargin: 5px;
 }
 
 .new__question,
 .new__answer,
 .new__tags {
-  padding: 15px 40px;
+  xmargin: 0 auto;
+  text-align: center;
+}
+
+.new__question {
+  padding-top: 50px;
 }
 
 button {
-  display: block;
+  xdisplay: block;
   margin: 20px auto 0 auto;
 }
 
 .user-pic-box {
   display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  gap: 20px;
 }
 
 p {
-  padding: 20px 0;
+  padding: 0 30px;
+  max-width: 800px;
+  xtext-align: left;
 }
 
 footer {
