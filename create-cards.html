@@ -11,42 +11,42 @@
     <header>
       <h1>Neue Quizfrage erstellen</h1>
     </header>
-    <main>
-      <section>
-        <label for="question">Welche Frage willst du hinzufügen?</label>
+    <main class="main__create-cards">
+      <section class="new__question">
+        <label for="question">Welche Frage willst du hinzufügen?</label><br />
         <textarea id="question" name="question" rows="" cols=""> </textarea>
       </section>
 
-      <section>
-        <label for="answer">Hier kommt die richtige Antwort rein:</label>
-        <textarea id="asnwer" name="asnwer" rows="" cols=""> </textarea>
+      <section class="new__answer">
+        <label for="answer">Hier kommt die richtige Antwort rein:</label><br />
+        <textarea id="answer" name="answer" rows="" cols=""> </textarea>
       </section>
 
-      <section>
+      <section class="new__tags">
         <label for="tags"
           >Hier kannst du passende Stichwörter eingeben (mit Komma
           getrennt):</label
-        >
+        ><br />
         <input type="text" id="tags" name="tags" size="" />
       </section>
 
-      <section>
+      <section class="button">
         <button>Karte erstellen</button>
       </section>
     </main>
     <footer>
       <nav>
-        <span>
+        <span class="navigation__icon">
           <a href="./index.html"
             ><img src="./icons/popcorn.png" alt="popcorn" width="50px"
           /></a>
         </span>
-        <span>
+        <span class="navigation__icon">
           <a href="./bookmarked-cards.html"
             ><img src="./icons/oscar.png" alt="oscar" width="50px"
           /></a>
         </span>
-        <span class="navigation__icon--active">
+        <span class="navigation__icon navigation__icon--active">
           <a href="./create-cards.html"
             ><img
               src="./icons/clapperboard.png"
@@ -54,7 +54,7 @@
               width="50px"
           /></a>
         </span>
-        <span>
+        <span class="navigation__icon">
           <a href="./user-profile.html"
             ><img
               src="./icons/director-chair.png"
