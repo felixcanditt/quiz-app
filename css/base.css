@@ -118,6 +118,18 @@ main {
   opacity: 1;
 }
 
+/* START Antworten mit JS */
+
+.card__answertext {
+  opacity: 0%;
+}
+
+.erscheine {
+  opacity: 100%;
+}
+
+/* END Antworten mit JS */
+
 .tags-box {
   display: flex;
   flex-wrap: wrap;
